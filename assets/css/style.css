@@ -1,0 +1,343 @@
+h1,
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.heading {
+   
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    border-bottom: solid black;
+    
+}
+
+#name {
+    display: block;
+    float: left;
+    margin-left: 15%;
+   
+    margin-bottom: 0;
+    background-color: rgb(63, 179, 163);
+    line-height: 30px;
+    padding: 20px;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin-right: 10%;
+    padding: 0;
+    width: 200px;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    text-align: center;
+}
+
+
+
+li a {
+    display: inline;
+    color: #000;
+    text-decoration: none;
+    padding: 4px;
+    margin: 1px;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.main-nav {
+   float: right;
+    
+    list-style-type: none;
+    margin-top: 35px;
+    padding: 0;
+    padding-right: 90px;
+  width: auto;
+}
+
+.pic {
+    float: left;
+    width: 190px;
+    height: 180px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+   
+    margin-top: -10px;
+    
+}
+
+.clearfix {
+    overflow: auto;
+  }
+
+.main {
+    margin-left: 05px;
+    width:auto;
+    display: inline-block; 
+    margin-right: 20px;  
+}
+
+.main2 {
+    margin-left: 05px;
+    width:auto;
+    display: inline-block;
+    margin-right: 20px;   
+}
+
+.main3 {
+    margin-right: 20px;
+    
+    width: auto;
+    display: inline-block;
+
+}
+.main4 {
+    margin-bottom: 50px;
+   margin-right: 20px;
+  
+    width: auto;
+    display: inline-block;
+}
+.main5 {
+    
+    width: auto;
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+
+
+.last {
+    
+    margin-left: 20px;
+    display: inline-block; 
+}
+
+.last2 {
+    margin-top: 50px;
+    margin-left: 20px;
+      
+    display: inline-block;
+}
+
+.last3 { 
+    margin-left: 20px;
+       
+    display: inline-block;
+}
+
+
+body {
+    margin: auto;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: lightgrey;
+    background-image: url("beige-tiles.png");
+}
+
+.main-body {
+    max-width: 960px;
+    background-color: lightgrey;
+    padding-bottom: 50px;
+    box-shadow: 10px 10px 25px grey;
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+.about-me {
+    padding: 20px;
+    border-bottom: solid .5px grey;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: rgb(58, 172, 137);
+    background-image: url("beige-tiles.png")
+}
+
+
+
+
+
+footer {
+    width: auto;
+    height: 80px;
+    border-top: solid black;
+    
+}
+
+
+
+.social {
+    text-align: center;
+ 
+
+
+}
+
+
+  
+  img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+  .container {
+      display: inline;
+      position: relative;
+      max-width: 960px;
+      
+      bottom: auto;
+      
+      
+
+
+      
+  }
+
+  .center {
+    font-family: Arial, Helvetica, sans-serif;
+    top: -60px;
+    text-align: center;
+    line-height: 60px;
+    position: absolute;
+    background-color:rgb(63, 179, 163); 
+    color: white;
+  
+    width: 310px;
+    margin-left: 40px;
+    
+    
+    
+    font-size: 28px;
+  }
+
+  .photos {
+      width: 310px;
+      height: 280px;
+      margin-left: 40px;
+      margin-top: 40px;
+  }
+
+  .entirety {
+    
+    display: inline;
+      position: relative;
+      max-width: 960px;
+     
+      
+  }
+
+  .boxed {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+
+  }
+
+  .Cname {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    line-height: 10px;
+    padding-top: 10px;
+   
+
+  }
+
+  .SM {
+     border-color: rgb(190, 190, 190);
+     border-style: solid;
+     padding:20px;
+     margin-right: 30px;
+     margin-left: 30px;
+      
+  }
+  
+  .fill-in {
+    border-color: rgb(190, 190, 190);
+      border-style: solid;
+      padding: 20px;
+      margin-right: 30px;
+      margin-left: 30px;
+      height: 200px
+
+}
+
+#submit {
+    margin-left: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    width: 120px;
+    background-color: rgb(63, 179, 163);
+    color: white;
+}
+
+.social ul {
+    display: inline;
+    text-align: center;
+    margin-left: 200px;
+ 
+
+}
+.social li {
+    display: inline;
+    text-align: center;
+    margin-left: 200px;
+    
+}
+
+
+@media screen and (max-width: 980px) {
+    body {
+        background-color: rgb(215, 240, 250)
+    }
+    footer {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+
+        background-color: rgb(126, 91, 182)
+    }
+    .main-nav {
+        margin-left: 160px;
+    }
+    
+
+        
+
+}
+
+@media screen and (max-width: 640px) {
+    header {
+        position: static;
+    }
+    body {
+
+        background-color: rgb(56, 163, 83)
+
+    }
+    .main-nav {
+        margin-left: 160px;
+    }
+
+}

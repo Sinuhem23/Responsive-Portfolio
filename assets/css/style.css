@@ -9,13 +9,13 @@ h2 {
    
     width: 100%;
     display: inline-block;
-    margin: auto;
+    
     border-bottom: solid black;
     
 }
 
 #name {
-    display: block;
+  
     float: left;
     margin-left: 15%;
    
@@ -69,7 +69,7 @@ li a:hover {
     width: 190px;
     height: 180px;
     border: 1px solid #ddd;
-    border-radius: 4px;
+
     padding: 20px;
    
     margin-top: -10px;
@@ -81,38 +81,41 @@ li a:hover {
   }
 
 .main {
-    margin-left: 05px;
+    margin-left: 20px;
     width:auto;
     display: inline-block; 
     margin-right: 20px;  
 }
 
 .main2 {
-    margin-left: 05px;
-    width:auto;
+    
+    margin-left: 20px;
+    width: 450px;
     display: inline-block;
     margin-right: 20px;   
 }
 
 .main3 {
+    margin-left: 20px;
     margin-right: 20px;
-    
-    width: auto;
+    width: 430px;
     display: inline-block;
 
 }
 .main4 {
-    margin-bottom: 50px;
+    
+   margin-left: 20px;
    margin-right: 20px;
   
-    width: auto;
+    width: 470px;
     display: inline-block;
 }
 .main5 {
     
-    width: auto;
+    width: 700px;
     display: inline-block;
     margin-left: 20px;
+    margin-right: 20px;
 
 }
 
@@ -121,18 +124,21 @@ li a:hover {
 .last {
     
     margin-left: 20px;
+    margin-right: 20px;
     display: inline-block; 
 }
 
 .last2 {
-    margin-top: 50px;
+   
     margin-left: 20px;
+    margin-right: 20px;
       
     display: inline-block;
 }
 
 .last3 { 
     margin-left: 20px;
+    margin-right: 20px;
        
     display: inline-block;
 }
@@ -144,6 +150,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: lightgrey;
     background-image: url("beige-tiles.png");
+
 }
 
 .main-body {
@@ -244,50 +251,35 @@ footer {
       
   }
 
-  .boxed {
-    font-family: Arial, Helvetica, sans-serif;
-    display: block;
-
-  }
-
-  .Cname {
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 30px;
-    line-height: 10px;
-    padding-top: 10px;
-   
-
-  }
-
-  .SM {
-     border-color: rgb(190, 190, 190);
-     border-style: solid;
-     padding:20px;
-     margin-right: 30px;
-     margin-left: 30px;
-      
-  }
-  
-  .fill-in {
-    border-color: rgb(190, 190, 190);
-      border-style: solid;
-      padding: 20px;
-      margin-right: 30px;
+  #form-container {
       margin-left: 30px;
-      height: 200px
+  }
+
+.main-form {
+    width: 800px;
+    height: 30px;
+    padding: 10px;
+    margin-top: 0;
+    margin-left: 15px;
+    box-sizing: border-box;
+    display:inline-block;
+}
+.name-form {
+    margin-bottom: 10px;
+    padding: 5px;
+    margin-left: 15px;
+    margin-top: 15px;
 
 }
-
-#submit {
-    margin-left: 30px;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    height: 40px;
-    width: 120px;
-    background-color: rgb(63, 179, 163);
-    color: white;
+#message-box {
+    max-height: 300px;
+    min-height: 100px;
+    max-width: 790px;
+    min-width: 790px;
+    padding: 5px;
+    margin-left: 5px;
 }
+
 
 .social ul {
     display: inline;
@@ -306,23 +298,101 @@ footer {
 
 @media screen and (max-width: 980px) {
     body {
+        margin: auto;
+        width: auto;
         background-color: rgb(215, 240, 250)
     }
     footer {
         text-align: center;
     }
+    .social {
+
+        max-width: 650px;
+        min-width: 400px;
+        height: auto;
+        margin: auto;
+    }
+    
+
+    .main-form {
+        max-width: 650px;
+        min-width: 400px;
+        height: auto;
+        margin: auto;
+      }
+      .name-form {
+          width: auto;
+          height: auto;
+          margin: auto;
+      
+      }
+      #message-box {
+        max-width: 750px;
+        min-width: 630px;
+          height: auto;
+          margin: auto;
+      }
+
 }
 
 @media screen and (max-width: 768px) {
     body {
+        
+        
+        
 
         background-color: rgb(126, 91, 182)
     }
     .main-nav {
         margin-left: 160px;
     }
-    
 
+
+  #form-container {
+    margin-left: 30px;
+  
+}
+
+.main-form {
+    max-width: 300px;
+    min-width:200px;
+  height: auto;
+  margin: auto;
+}
+.name-form {
+    max-width: 600px;
+    min-width: 500px;
+    height: auto;
+    margin: auto;
+
+}
+#message-box {
+    max-width: 700px;
+    min-width: 600px;
+    height: auto;
+    margin: auto;
+}
+#submit {
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+.main2  {
+    width: 450px;
+}
+
+.main3 {
+    width: 430px;
+}
+
+.main4 {
+
+    width: 470px;
+}
+
+
+
+    
         
 
 }
@@ -330,14 +400,92 @@ footer {
 @media screen and (max-width: 640px) {
     header {
         position: static;
-    }
-    body {
-
-        background-color: rgb(56, 163, 83)
 
     }
+    
+
+    
+    .main-body {
+        padding:20px;
+        margin-bottom: 250px;
+        width: auto;
+       
+    }
+    
     .main-nav {
         margin-left: 160px;
+    }
+    .pic {
+        width: 300px;
+       
+        margin: 0 auto;
+
+    }
+    .about-me {
+        width: 100%;
+
+    }
+    #name {
+
+      
+        margin-left: 150px;
+      
+    }
+
+    .social {
+        padding-right: 500px;
+        
+    }
+    #form-container {
+        margin-left: 30px;
+        width: auto;
+    }
+    
+    .main-form {
+        max-width: 300px;
+        min-width:280px;
+      height: auto;
+      margin: auto;
+    }
+    .name-form {
+        
+        width: auto;
+        height: auto;
+       
+       margin-right: auto;
+    
+    }
+    #message-box {
+        max-width: 310px;
+        min-width: 280px;
+        padding-bottom:30px; 
+        height: auto;
+      
+    }
+    #submit {
+        width: auto;
+        height: auto;
+        margin-left: 40px;
+    }
+
+    .main2  {
+        width: 300px;
+        padding-right: 10px;
+    }
+    
+    .main3 {
+        width: 330px;
+        padding-right: 10px;
+    }
+    
+    .main4 {
+    padding-right: 10px;
+        width: 340px;
+    }
+
+    .main5 {
+        padding-right: 10px;
+        width: 330px;
     }
 
 }

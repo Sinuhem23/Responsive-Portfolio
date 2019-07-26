@@ -17,7 +17,7 @@ h2 {
 #name {
   
     float: left;
-    margin-left: 15%;
+    margin-left: 20%;
    
     margin-bottom: 0;
     background-color: rgb(63, 179, 163);
@@ -76,9 +76,7 @@ li a:hover {
     
 }
 
-.clearfix {
-    overflow: auto;
-  }
+
 
 .main {
     margin-left: 20px;
@@ -170,6 +168,7 @@ body {
 
 
 
+
 .about-me {
     padding: 20px;
     border-bottom: solid .5px grey;
@@ -226,10 +225,10 @@ footer {
     position: absolute;
     background-color:rgb(63, 179, 163); 
     color: white;
-  
+    display: inline-block;
     width: 310px;
-    margin-left: 40px;
-    
+    margin-left: -315px;
+    z-index: 1;
     
     
     font-size: 28px;
@@ -240,13 +239,19 @@ footer {
       height: 280px;
       margin-left: 40px;
       margin-top: 40px;
+     
+      
   }
 
   .entirety {
     
-    display: inline;
+    display: inline-block;
+    
       position: relative;
       max-width: 960px;
+    
+
+      height: auto;
      
       
   }
@@ -284,14 +289,14 @@ footer {
 .social ul {
     display: inline;
     text-align: center;
-    margin-left: 200px;
+    margin-left: 60px;
  
 
 }
 .social li {
     display: inline;
     text-align: center;
-    margin-left: 200px;
+    margin-left: 60px;
     
 }
 
@@ -332,6 +337,13 @@ footer {
           height: auto;
           margin: auto;
       }
+
+
+      .entirety {
+      
+       
+        bottom: 40px;
+         }
 
 }
 
@@ -414,6 +426,7 @@ footer {
     
     .main-nav {
         margin-left: 160px;
+
     }
     .pic {
         width: 300px;
@@ -488,4 +501,10 @@ footer {
         width: 330px;
     }
 
+     .entirety {
+    margin-left: -30px;
+    margin-right: 0;
+    bottom: 40px;
+     }
+     
 }

@@ -1,3 +1,6 @@
+/* For All */
+
+
 h1,
 h2 {
     font-family: Arial, Helvetica, sans-serif;
@@ -18,8 +21,8 @@ h2 {
   
     float: left;
     margin-left: 20%;
-   
-    margin-bottom: 0;
+   margin-top: 10px;
+    margin-bottom: 10px;
     background-color: rgb(63, 179, 163);
     line-height: 30px;
     padding: 20px;
@@ -64,6 +67,60 @@ li a:hover {
   width: auto;
 }
 
+body {
+    margin: auto;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: lightgrey;
+    background-image: url("beige-tiles.png");
+
+}
+.main-body {
+    max-width: 960px;
+    background-color: lightgrey;
+    padding-bottom: 50px;
+    box-shadow: 10px 10px 25px grey;
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.about-me {
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: solid .5px grey;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: rgb(58, 172, 137);
+    background-image: url("beige-tiles.png")
+}
+footer {
+    width: auto;
+    height: 80px;
+    border-top: solid black;
+    
+}
+
+
+
+.social {
+    text-align: center;
+ 
+
+
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+/* End of All */
+
+/* Index html Properties */
 .pic {
     float: left;
     width: 190px;
@@ -142,69 +199,16 @@ li a:hover {
 }
 
 
-body {
-    margin: auto;
-    width: 100%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: lightgrey;
-    background-image: url("beige-tiles.png");
-
-}
-
-.main-body {
-    max-width: 960px;
-    background-color: lightgrey;
-    padding-bottom: 50px;
-    box-shadow: 10px 10px 25px grey;
-    margin-left: 15%;
-    margin-right: 10%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    overflow: hidden;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
+/* End of Index html Properties */
 
 
 
 
 
-.about-me {
-    padding: 20px;
-    font-size: 30px;
-    font-weight: bold;
-    border-bottom: solid .5px grey;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    color: rgb(58, 172, 137);
-    background-image: url("beige-tiles.png")
-}
 
 
-
-
-
-footer {
-    width: auto;
-    height: 80px;
-    border-top: solid black;
-    
-}
-
-
-
-.social {
-    text-align: center;
- 
-
-
-}
-
-
+  /* Portfolio html Properties */
   
-  img:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-  }
 
   .container {
       display: inline;
@@ -258,6 +262,9 @@ footer {
       
   }
 
+  /* End of Portfolio html Properties */
+
+  /* Contact html Properties */
   #form-container {
       margin-left: 30px;
   }
@@ -302,10 +309,11 @@ footer {
     
 }
 
+/* End of Contact html Properties */
+
 
 @media screen and (max-width: 980px) {
     body {
-        margin: auto;
         width: auto;
         background-color: rgb(215, 240, 250)
     }

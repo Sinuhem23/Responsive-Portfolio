@@ -171,6 +171,8 @@ body {
 
 .about-me {
     padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
     border-bottom: solid .5px grey;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -339,11 +341,7 @@ footer {
       }
 
 
-      .entirety {
       
-       
-        bottom: 40px;
-         }
 
 }
 
@@ -419,7 +417,7 @@ footer {
     
     .main-body {
         padding:20px;
-        margin-bottom: 250px;
+        margin-bottom: 150px;
         width: auto;
        
     }

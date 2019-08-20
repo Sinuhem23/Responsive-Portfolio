@@ -358,8 +358,8 @@ img:hover {
         
         
         
-
-        background-color: rgb(126, 91, 182)
+        width: auto;
+        background-color: rgb(91, 182, 147)
     }
     .main-nav {
         margin-left: 160px;
@@ -416,6 +416,15 @@ img:hover {
 }
 
 @media screen and (max-width: 640px) {
+   
+    body {
+        
+        
+        
+        width: auto;
+        background-color: rgb(126, 91, 182)
+    }
+   
     header {
         position: static;
 
@@ -427,6 +436,7 @@ img:hover {
         padding:20px;
         margin-bottom: 150px;
         width: auto;
+        height: auto;
        
     }
     
